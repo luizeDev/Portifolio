@@ -12,35 +12,43 @@ body{
 
 
 header {
-	display:inline-block;
-	position: relative;
+	display:grid;
 	width: 100px;
 	left: 30%;
 	top: 5%;
 	padding: 20px;
 	z-index: 7.5;
-    
-}
-
-header h1{
-    color: rgb(178, 130, 246);
+	color: rgb(178, 130, 246);
 	position:relative;
 	right: 300%;
-}
+	}
 
-header p{
+header h1{
 	position: relative;
-	left: 500%;
-    color: white;
-    text-transform: uppercase;
-	font-size: 0.9rem;
-	transition: 0.3s;
-}
-header p:hover {
-	color: purple;
-	cursor: pointer;
-}
+	right: 100%;
 
+}
+	  
+	  nav ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		
+	  }
+	  
+	  nav ul li {
+		margin-right: 60px;
+	  }
+	  
+	  nav ul li:last-child {
+		margin-right: 0;
+	  }
+	  
+	  nav ul li a {
+		text-decoration: none;
+		color: #333;
+	  }
 
 
 .image_me{
