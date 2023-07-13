@@ -5,9 +5,11 @@
 body{
 	margin: 0;
   	padding: 0;
-    background-color: #5E4385;
+    background-color: #5f4385;
 	position: relative;
+	
 }
+
 
 
 /*---Barra Menu---*/
@@ -15,10 +17,9 @@ body{
 header {
 	display:grid;
 	width: 10px;
-	left: 30%;
+	left: 3%;
 	top: 5%;
-	align-items: center;
-	padding: 20px;
+	padding: 25px;
 	z-index: 7.5;
 	color: #D7CFE1;
 	
